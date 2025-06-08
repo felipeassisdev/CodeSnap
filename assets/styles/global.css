@@ -391,8 +391,7 @@ section.manutencao{
 }
 
 .manutencao i{
-    padding-left: 500px;
-    align-items: center;
+    text-align: center;
     font-size: 200px;
     color: #1FEDC8;
 }
