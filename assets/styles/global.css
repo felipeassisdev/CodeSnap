@@ -10,13 +10,13 @@ header>.interface {
 }
 
 header a {
-    color: #5c5c5c;
+    color: var(--title-shade);
     text-decoration: none;
     display: inline-block;
 }
 
 header nav.menu-desktop a:hover {
-    color: #fff;
+    color: var(--title-color);
     transform: scale(1.05);
     transition: .2s;
 }
@@ -32,12 +32,12 @@ header nav.menu-desktop ul li {
 
 /*MENU MOBILE*/
 .cs-abrir-menu i {
-    color: #1FEDC8;
+    color: var(--soft-color);
     font-size: 45px;
 }
 
 .menu-mobile {
-    background-color: #000;
+    background-color: var(--background);
     height: 100vh;
     width: 0%;
     position: fixed;
@@ -61,7 +61,7 @@ header nav.menu-desktop ul li {
 }
 
 .menu-mobile .cs-fechar i {
-    color: #1FEDC8;
+    color: var(--soft-color);
     font-size: 45px;
 }
 
@@ -70,7 +70,7 @@ header nav.menu-desktop ul li {
 }
 
 .menu-mobile nav ul li a {
-    color: #fff;
+    color: var(--title-color);
     font-size: 20px;
     font-weight: 300;
     padding: 20px 8%;
@@ -78,8 +78,8 @@ header nav.menu-desktop ul li {
 }
 
 .menu-mobile nav ul li a:hover {
-    background-color: #1FEDC8;
-    color: #000;
+    background-color: var(--soft-color);
+    color: var(--background);
 }
 
 .overlay-menu {
@@ -105,17 +105,17 @@ section.top-web .flex {
 }
 
 .top-web .txt-top-web h1 {
-    color: #fff;
+    color: var(--title-color);
     font-size: 34px;
     line-height: 39px;
 }
 
 .top-web .txt-top-web h1 span {
-    color: #1FEDC8;
+    color: var(--soft-color);
 }
 
 .top-web .txt-top-web p {
-    color: #fff;
+    color: var(--title-color);
     margin: 30px 0;
 }
 
@@ -129,7 +129,7 @@ section.linguagens .flex {
 }
 
 .linguagens .linguagens-box {
-    color: #fff;
+    color: var(--title-color);
     padding: 40px;
     border-radius: 25px;
     margin-top: 45px;
@@ -138,7 +138,7 @@ section.linguagens .flex {
 }
 
 .linguagens .linguagens-box a {
-    color: #fff;
+    color: var(--title-color);
     text-decoration: none;
 }
 
@@ -149,7 +149,7 @@ section.linguagens .flex {
 
 .linguagens .linguagens-box i {
     font-size: 45px;
-    color: #1FEDC8;
+    color: var(--soft-color);
 }
 
 .linguagens .linguagens-box h3 {
@@ -158,7 +158,7 @@ section.linguagens .flex {
 }
 
 .cta h3{
-    color: #fff;
+    color: var(--title-color);
     font-size: 20px;
     text-align: center;
     margin-top: 30px;
@@ -179,7 +179,7 @@ section.recursos .flex {
 }
 
 .recursos .subtitle {
-    color: #fff;
+    color: var(--title-color);
     text-align: center;
     font-size: 21px;
 }
@@ -193,7 +193,7 @@ section.recursos .flex {
 }
 
 .recursos .recursos-box a {
-    color: #fff;
+    color: var(--title-color);
     text-decoration: none;
 }
 
@@ -204,11 +204,11 @@ section.recursos .flex {
 
 .recursos .recursos-box i {
     font-size: 45px;
-    color: #1FEDC8;
+    color: var(--soft-color);
 }
 
 .recursos .cta h3 {
-    color: #fff;
+    color: var(--title-color);
     font-size: 20px;
     text-align: center;
     margin-top: 30px;
@@ -229,7 +229,7 @@ section.como-usar .flex {
 }
 
 .subtitle {
-    color: #fff;
+    color: var(--title-color);
     text-align: center;
     font-size: 18px;
 }
@@ -243,7 +243,7 @@ section.como-usar .flex {
 }
 
 .como-usar .como-usar-box a {
-    color: #fff;
+    color: var(--title-color);
     text-decoration: none;
 }
 
@@ -254,7 +254,7 @@ section.como-usar .flex {
 
 .como-usar .como-usar-box i {
     font-size: 45px;
-    color: #1FEDC8;
+    color: var(--soft-color);
 }
 
 .como-usar .cta-button {
@@ -268,7 +268,7 @@ section.sobre {
 }
 
 .sobre h1.title{
-    color: #fff;
+    color: var(--title-color);
     font-size: 32px;
     text-align: center;
     margin-top: 20px;
@@ -276,7 +276,7 @@ section.sobre {
 
 .sobre .subtitle1 {
     margin-top: 25px;
-    color: #fff;
+    color: var(--title-color);
     text-align: center;
     font-size: 18px;
 }
@@ -287,19 +287,19 @@ section.sobre {
 }
 
 .sobre .txt-top-web h1{
-    color: #fff;
+    color: var(--title-color);
     font-size: 34px;
     line-height: 39px;
     padding: 40px 4%;
 }
 
 .sobre .txt-top-web p{
-    color: #fff;
+    color: var(--title-color);
     padding: 0px 4%;
 }
 
 .sobre .sobre-box{
-    color: #fff;
+    color: var(--title-color);
     padding: 40px;
     border-radius: 25px;
     margin-top: 45px;
@@ -314,7 +314,7 @@ section.sobre {
 
 .sobre .sobre-box i{
     font-size: 45px;
-    color: #1FEDC8;
+    color: var(--soft-color);
 }
 
 .sobre .interface h1{
@@ -322,7 +322,7 @@ section.sobre {
 }
 
 .sobre .interface h3{
-    color: #fff;
+    color: var(--title-color);
     font-size: 20px;
     text-align: center;
     padding: 20px 4%;
@@ -362,11 +362,11 @@ form textarea {
 }
 
 form input::placeholder {
-    color: #1FEDC8;
+    color: var(--soft-color);
 }
 
 form textarea::placeholder {
-    color: #1FEDC8;
+    color: var(--soft-color);
 }
 
 form .cs-enviar {
@@ -376,8 +376,8 @@ form .cs-enviar {
 
 form .cs-enviar input {
     width: 175px;
-    background-color: #1FEDC8;
-    color: #000;
+    background-color: var(--soft-color);
+    color: var(--background);
     font-weight: 650;
     cursor: pointer;
     transition: .4s;
@@ -394,11 +394,11 @@ section.manutencao{
     padding-left: 500px;
     align-items: center;
     font-size: 200px;
-    color: #1FEDC8;
+    color: var(--soft-color);
 }
 
 .manutencao h3{
-    color: #fff;
+    color: var(--title-color);
     font-size: 40px;
     text-align: center;
 }
@@ -422,24 +422,24 @@ footer .social-button{
     display: inline-block;
     padding: 10px 20px;
     margin: 5px;
-    background-color: #1FEDC8;
-    color: #fff;
+    background-color: var(--soft-color);
+    color: var(--title-color);
     text-align: center;
     text-decoration: none;
     border-radius: 5;
 }
 
 .borda {
-    border-top: 2px solid #1FEDC8;
+    border-top: 2px solid var(--soft-color);
 }
 
 footer .line-footer p i {
-    color: #1FEDC8;
+    color: var(--soft-color);
     font-size: 18px;
 }
 
 footer .line-footer p a {
-    color: #fff;
+    color: var(--title-color);
     text-decoration: none;
 }
 
